@@ -48,6 +48,8 @@ android {
 
 dependencies {
 
+    implementation("com.github.bumptech.glide:glide:compose:1.0.0-beta01")
+
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
     implementation("androidx.activity:activity-compose:1.8.2")

@@ -4,6 +4,9 @@ import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import com.example.preparation_01.models.Game
+import com.example.preparation_01.models.gameList
+import com.example.preparation_01.ui.components.GameRow
 
 
 class MainActivity : ComponentActivity() {
@@ -11,7 +14,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         Log.d("MainActivity", "onCreate")
         setContent {
-            IntroPage()
+//            IntroPage()
+//            GameRow(game = Game("Game Name", "2021-09-01", "https://www.example.com/image.jpg"))
+            GameList(gameList = gameList)
         }
     }
 

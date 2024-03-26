@@ -4,8 +4,8 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.preparation_01.models.Game
-import com.example.preparation_01.models.gameList
 import com.example.preparation_01.ui.components.GameRow
+import com.example.preparation_01.models.gameList
 
 
 @Composable

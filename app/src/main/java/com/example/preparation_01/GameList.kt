@@ -15,8 +15,6 @@ fun GameList(gameList: List<Game> = emptyList()) {
             GameRow(game = gameList[index])
         }
     }
-
-
 }
 
 @Preview(showBackground = true)
